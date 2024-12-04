@@ -1,0 +1,32 @@
+h1 {
+    font-family: Impact;
+}
+
+p {
+    font-size: x-large;
+}
+
+h2 {
+    font-family: Impact;
+}
+
+h3{
+    color: seagreen
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+ li{
+    color: red;
+    font-size: medium;
+ }
+ h1:hover{
+    color: seagreen;
+ }
+ h2:hover{
+    color: seagreen;
+ }
+ a:hover {
+ color: red
+ }
+ h3:hover{
+    color: seagreen;
+ }

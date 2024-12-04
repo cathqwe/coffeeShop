@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hidden Gems of Switzerland</title>
+    <link rel="stylesheet" href="style4.css"> <!-- Link to CSS file -->
+    <link rel="shortcut icon" href="favico.ico" type="image/s=x-icon">
+    <style>
+        h2{
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            line-height: 1.6;
+            text-align: center; 
+        }
+        h1 {
+            color: #4A90E2;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center; 
+            gap: 20px; 
+        }
+        .places {
+            position: relative; 
+            width: 30%; 
+            overflow: hidden;
+        }
+        .places img {
+            width: 100%;
+            height: auto;
+            display: block; 
+            max-height: 200px; 
+            object-fit: cover; 
+        }
+        .hover-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            opacity: 0; 
+            transition: opacity 0.3s ease; 
+            max-height: 200px; 
+            object-fit: cover;
+        }
+        .places:hover .hover-image {
+            opacity: 1; 
+        }
+        .description {
+            padding: 10px;
+        }
+     
+        h2:hover{
+            color: chocolate;
+        }
+        li:hover{
+            color: saddlebrown;
+        }
+    </style>
+</head>
+<body>
+    <div class="travel-tips"> 
+        <h2>Hidden Gems of Switzerland</h2>
+        <div class="container">
+            <div class="places">
+                <img class="normal-image" src="appanzel.png" alt="Appenzell">
+                <img class="hover-image" src="appanzel1.png" alt="Appenzell Hover">
+                <div class="description">
+                    <h2>Appenzell</h2>
+                </div>
+            </div>
+
+            <div class="places">
+                <img class="normal-image" src="gimmelwald1.png" alt="Gimmelwald">
+                <img class="hover-image" src="gimmelwald.png" alt="Gimmelwald Hover">
+                <div class="description">
+                    <h2>Gimmelwald</h2>
+                </div>
+            </div>
+
+            <div class="places">
+                <img class="normal-image" src="rothorn1.png"Rothorn">
+                <img class="hover-image" src="rothorn.png" alt="Rothorn Hover">
+                <div class="description">
+                    <h2>Rothorn</h2>
+                </div>
+            </div>
+            </div>
+        </div>
+        
+        <br>
+        <h2>Discover more in Switzerland</h2>
+        <ol>
+            <li>Geography
+                <p>Switzerland is a landlocked country located in Central Europe, bordered by France, Germany, Italy, Austria, and Liechtenstein. It's known for its stunning landscapes, including the Swiss Alps, beautiful lakes, and picturesque valleys.</p>
+            </li>
+            <li>Culture
+                <p>Switzerland has a rich cultural heritage influenced by its multilingual population. The country has four official languages: German, French, Italian, and Romansh. Each region has its own unique customs, traditions, and culinary specialties.</p>
+            </li>
+            <li>Economy
+                <p>Switzerland boasts one of the highest per capita incomes in the world and is known for its robust economy, driven by finance, pharmaceuticals, machinery, and tourism. Major cities like Zurich and Geneva are global financial hubs.</p>
+            </li>
+            <li>Dining Etiquette
+                <p>Swiss dining customs are generally informal. Tipping is appreciated but not mandatory; rounding up the bill or leaving small change is common.</p>
+            </li>
+        </ol>
+        
+        <h3><a href="index.html">Go back to Home page</a></h3>
+    </div>
+</body>
+</html>
